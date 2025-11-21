@@ -1,4 +1,4 @@
-# Sistema-de-login-em-c#-
+# Sistema de login em c#
 
 Este é um projeto bem básico que fiz para praticar lógica de programação em **C#**.  
 A ideia é criar um sistema de login simples usando **console**, comparando um usuário e senha fixos.
