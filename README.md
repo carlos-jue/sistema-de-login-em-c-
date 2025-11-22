@@ -1,18 +1,33 @@
 # Sistema de login em C#
 
-Este é um projeto bem básico que fiz para praticar lógica de programação em **C#**.  
-A ideia é criar um sistema de login simples usando **console**, comparando um usuário e senha fixos.
+Este é um projeto simples de um sistema de login feito em C#.
+O programa possui um usuário e senha fixos no código e permite três tentativas de login.
 
+Funcionalidades:
 
-O programa pede:
+ -Solicita usuário e senha pelo console.
 
-1. Usuário  
-2. Senha  
+ -Compara os dados digitados com os já definidos no código.
 
-Depois ele verifica se os valores digitados são iguais aos valores definidos no código.
+ -Permite três tentativas antes de bloquear o acesso.
 
-Se estiverem corretos → mostra **"Logado com sucesso!"**  
-Se estiver errado → mostra **"Usuario ou senha errado!"**
+ -Exibe mensagens de acerto e erro.
 
+Como funciona:
+O código possui duas variáveis com o usuário e senha corretos:
+usuarioCorreto = "admin"
+senhaCorreta = "1234"
 
--animado para fazer outros projetos em c# hehe
+Se o usuário digitar esses valores corretamente, o login é aprovado.
+Se errar, o programa reduz o número de tentativas até chegar a zero.
+
+Como executar:
+
+ 1-Abra qualquer editor ou IDE que rode C#.
+
+ 2-Cole o código.
+
+ 3-Compile e execute o programa.
+
+ 4-Digite o usuário e a senha quando o console pedir.
+
